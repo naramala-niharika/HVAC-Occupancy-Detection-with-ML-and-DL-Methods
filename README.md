@@ -21,7 +21,7 @@ For this kernel, I'm using a dataset for predicting room occupancy with using en
    https://colab.research.google.com/
    ```
 
-2. Upload the dataset of four classes to Google drive (The dataset has the FUNDUS images of eye).
+2. Upload the dataset of four classes to Google drive .
     ```
     from google.colab import drive
     drive.mount('/content/drive')
@@ -29,9 +29,9 @@ For this kernel, I'm using a dataset for predicting room occupancy with using en
 
 3. After uploading the dataset in the Google Drive, Mount Drive with the Google Colab repository.
 
-4. Execute the Fundus Disease Detection script in the Colab notebook, which may involve adapting the script to run within a notebook environment.
+4. Execute the HVAC Detection script in the Colab notebook, which may involve adapting the script to run within a notebook environment.
 
-5. Make sure that the Retinopathy Disease Prediction script runs within the Colab notebook environment and required packages are installed in the Colab environment using the following commands.
+5. Make sure that the HVAC Disease Prediction script runs within the Colab notebook environment and required packages are installed in the Colab environment using the following commands.
     ```
     !pip install package_name
     ```
@@ -40,7 +40,7 @@ For this kernel, I'm using a dataset for predicting room occupancy with using en
 
 7. Include visualizations, such as predicted classes or probability scores, to enhance result interpretation.
 
-8. Repeat the process by providing new inputs, changing the optimizer, Ephocs and with different Fundus images.
+8. Repeat the process by providing new inputs, changing the optimizer, Ephocs and with different HVAC images.
 
 ### Mathematical Equations
 #### 1. Accuracy:
